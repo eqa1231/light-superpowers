@@ -24,16 +24,18 @@ Light Superpowers is a lightweight Codex workflow plugin for people who like the
 Add this repository as a Codex plugin marketplace:
 
 ```powershell
-codex plugin marketplace add eqa1231/light-superpowers --ref main
+codex plugin marketplace add eqa1231/light-superpowers --ref v0.1.1
 ```
 
 Then install the plugin:
 
 ```powershell
-codex plugin add light-superpowers@light-superpowers
+codex plugin add light-superpowers@eqa1231-codex-plugins
 ```
 
 Open a new Codex thread after installation so the skill index refreshes.
+
+If you want the latest development version instead of the stable release, use `--ref main` when adding the marketplace.
 
 ## Use
 
@@ -51,6 +53,12 @@ Use $light-superpowers: make the smallest safe change and verify it.
 
 ```text
 Use $light-superpowers instead of the full Superpowers workflow.
+```
+
+Chinese prompts are supported too:
+
+```text
+用 $light-superpowers，这次走轻量流程，不要完整 Superpowers 流程。
 ```
 
 ## Repository Layout
@@ -75,6 +83,10 @@ Full Superpowers-style workflows are valuable for large, risky engineering tasks
 - Keeps verification, but scales it to the task.
 - Leaves project-specific rules and repository guidance in charge.
 
+### How To Use
+
+Install the plugin, open a new Codex thread, and ask Codex to use `$light-superpowers` when you want lightweight execution.
+
 ## 简体中文
 
 ### 解决了什么问题？
@@ -88,6 +100,10 @@ Full Superpowers-style workflows are valuable for large, risky engineering tasks
 - 默认不启用完整 brainstorming、设计文档、子 Agent、worktree、分支收尾流程。
 - 保留必要验证，但验证范围跟随任务风险缩放。
 - 不覆盖项目自己的 AGENTS、规范、架构规则和仓库约定。
+
+### 如何使用？
+
+安装插件后，新开一个 Codex 线程；当你希望轻量执行时，说“用 `$light-superpowers`，这次走轻量流程”即可。
 
 ## 繁體中文
 
@@ -103,6 +119,10 @@ Full Superpowers-style workflows are valuable for large, risky engineering tasks
 - 保留必要驗證，但驗證範圍會隨任務風險縮放。
 - 不覆蓋專案自己的 AGENTS、規範、架構規則和倉庫約定。
 
+### 如何使用？
+
+安裝插件後，開啟新的 Codex 對話；需要輕量執行時，請明確要求使用 `$light-superpowers`。
+
 ## 日本語
 
 ### 何を解決しますか？
@@ -116,6 +136,10 @@ Full Superpowers-style workflows are valuable for large, risky engineering tasks
 - 高リスクな作業やユーザーの明示的な依頼がない限り、完全な brainstorming、設計文書、subagent、worktree、ブランチ完了フローを使いません。
 - 検証は残しつつ、タスクのリスクに合わせて範囲を調整します。
 - プロジェクト固有のルールやリポジトリのガイドラインを優先します。
+
+### 使い方
+
+プラグインをインストールした後、新しい Codex スレッドを開き、軽量な進め方が必要なときに `$light-superpowers` を使うよう依頼してください。
 
 ## 한국어
 
@@ -131,6 +155,10 @@ Full Superpowers-style workflows are valuable for large, risky engineering tasks
 - 검증은 유지하되 작업 위험도에 맞게 범위를 조절합니다.
 - 프로젝트별 규칙과 저장소 가이드를 우선합니다.
 
+### 사용 방법
+
+플러그인을 설치한 뒤 새 Codex 스레드를 열고, 가볍게 진행하고 싶을 때 `$light-superpowers` 사용을 요청하세요.
+
 ## Español
 
 ### ¿Qué Problema Resuelve?
@@ -144,6 +172,10 @@ Los flujos completos al estilo Superpowers son útiles para tareas grandes o rie
 - Evita brainstorming completo, documentos de diseño, subagentes, worktrees y flujos de cierre de ramas salvo que haya alto riesgo o el usuario lo pida.
 - Conserva la verificación, pero la ajusta al riesgo de la tarea.
 - Respeta las reglas del proyecto y las guías del repositorio.
+
+### Cómo Usarlo
+
+Instala el plugin, abre un nuevo hilo de Codex y pide usar `$light-superpowers` cuando quieras un flujo ligero.
 
 ## Français
 
@@ -159,6 +191,10 @@ Les workflows complets de type Superpowers sont utiles pour les tâches importan
 - Conserve la vérification, mais l'adapte au risque de la tâche.
 - Respecte les règles du projet et les conventions du dépôt.
 
+### Comment L'utiliser
+
+Installez le plugin, ouvrez un nouveau fil Codex, puis demandez à utiliser `$light-superpowers` lorsque vous voulez un workflow léger.
+
 ## Deutsch
 
 ### Welches Problem Löst Es?
@@ -172,6 +208,10 @@ Vollständige Superpowers-Workflows sind bei großen oder riskanten Entwicklungs
 - Vollständiges Brainstorming, Designdokumente, Subagents, Worktrees und Branch-Abschlussflows werden nur bei hohem Risiko oder auf Wunsch genutzt.
 - Verifikation bleibt erhalten, wird aber an das Aufgabenrisiko angepasst.
 - Projektregeln und Repository-Konventionen haben Vorrang.
+
+### Verwendung
+
+Installiere das Plugin, öffne einen neuen Codex-Thread und bitte um `$light-superpowers`, wenn du einen leichten Ablauf möchtest.
 
 ## Italiano
 
@@ -187,6 +227,10 @@ I workflow completi in stile Superpowers sono utili per attività grandi o risch
 - Mantiene la verifica, ma ne adatta l'ambito al rischio del compito.
 - Rispetta le regole del progetto e le convenzioni del repository.
 
+### Come Usarlo
+
+Installa il plugin, apri un nuovo thread Codex e chiedi di usare `$light-superpowers` quando vuoi un workflow leggero.
+
 ## Português
 
 ### Que Problema Ele Resolve?
@@ -200,6 +244,10 @@ Fluxos completos no estilo Superpowers são úteis para tarefas grandes ou arris
 - Evita brainstorming completo, documentos de design, subagentes, worktrees e fluxos de finalização de branch, exceto quando houver alto risco ou pedido explícito.
 - Mantém a verificação, mas ajusta seu escopo ao risco da tarefa.
 - Respeita as regras do projeto e as orientações do repositório.
+
+### Como Usar
+
+Instale o plugin, abra uma nova thread do Codex e peça para usar `$light-superpowers` quando quiser um fluxo leve.
 
 ## Русский
 
@@ -215,6 +263,10 @@ Fluxos completos no estilo Superpowers são úteis para tarefas grandes ou arris
 - Сохраняет проверку, но масштабирует ее под риск задачи.
 - Уважает правила проекта и соглашения репозитория.
 
+### Как Использовать
+
+Установите плагин, откройте новый поток Codex и попросите использовать `$light-superpowers`, когда нужен легкий процесс.
+
 ## العربية
 
 ### ما المشكلة التي يحلها؟
@@ -228,6 +280,10 @@ Fluxos completos no estilo Superpowers são úteis para tarefas grandes ou arris
 - يتجنب brainstorming الكامل، ووثائق التصميم، وsubagents، وworktrees، وتدفقات إنهاء الفروع إلا عند وجود مخاطرة عالية أو طلب صريح من المستخدم.
 - يحافظ على التحقق، لكنه يضبط نطاقه حسب مخاطر المهمة.
 - يعطي الأولوية لقواعد المشروع وإرشادات المستودع.
+
+### طريقة الاستخدام
+
+ثبّت الإضافة، وافتح محادثة Codex جديدة، ثم اطلب استخدام `$light-superpowers` عندما تريد سير عمل خفيفا.
 
 ## हिन्दी
 
@@ -243,6 +299,10 @@ Fluxos completos no estilo Superpowers são úteis para tarefas grandes ou arris
 - Verification बनाए रखता है, लेकिन उसका scope task risk के अनुसार तय करता है।
 - Project rules और repository guidance को प्राथमिकता देता है।
 
+### उपयोग कैसे करें
+
+Plugin install करें, नया Codex thread खोलें, और जब हल्का workflow चाहिए हो तब `$light-superpowers` इस्तेमाल करने को कहें।
+
 ## Bahasa Indonesia
 
 ### Masalah Apa yang Diselesaikan?
@@ -256,3 +316,7 @@ Workflow lengkap bergaya Superpowers berguna untuk pekerjaan engineering yang be
 - Menghindari brainstorming penuh, dokumen desain, subagent, worktree, dan alur penyelesaian branch kecuali tugas berisiko tinggi atau diminta pengguna.
 - Tetap melakukan verifikasi, tetapi menyesuaikan cakupannya dengan risiko tugas.
 - Mengutamakan aturan proyek dan panduan repository.
+
+### Cara Menggunakan
+
+Instal plugin, buka thread Codex baru, lalu minta Codex memakai `$light-superpowers` saat Anda ingin workflow yang ringan.

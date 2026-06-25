@@ -1,7 +1,7 @@
 {
-  "name": "light-superpowers",
+  "name": "eqa1231-codex-plugins",
   "interface": {
-    "displayName": "Light Superpowers"
+    "displayName": "eqa1231 Codex Plugins"
   },
   "plugins": [
     {

@@ -1,6 +1,6 @@
 ---
 name: light-superpowers
-description: Use when the user explicitly asks for light-superpowers, a lighter Superpowers workflow, task-scaled execution, or to avoid full brainstorming/planning/TDD/subagent ceremony while still keeping engineering discipline.
+description: "Use when the user explicitly asks for light-superpowers, \u8f7b\u91cf Superpowers, \u8f7b\u91cf\u6d41\u7a0b, \u4e0d\u8d70\u5b8c\u6574\u6d41\u7a0b, \u5c0f\u4efb\u52a1\u8f7b\u91cf\u6267\u884c, task-scaled execution, or avoiding full Superpowers brainstorming/planning/TDD/subagent/worktree ceremony while keeping engineering discipline."
 ---
 
 # Light Superpowers
