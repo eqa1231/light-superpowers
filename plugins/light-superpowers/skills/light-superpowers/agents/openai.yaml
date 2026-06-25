@@ -1,0 +1,7 @@
+interface:
+  display_name: "Light Superpowers"
+  short_description: "Task-sized workflow without heavy ceremony."
+  default_prompt: "Use $light-superpowers to keep this task lightweight but verified."
+
+policy:
+  allow_implicit_invocation: true

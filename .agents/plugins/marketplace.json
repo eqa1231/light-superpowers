@@ -1,0 +1,20 @@
+{
+  "name": "light-superpowers",
+  "interface": {
+    "displayName": "Light Superpowers"
+  },
+  "plugins": [
+    {
+      "name": "light-superpowers",
+      "source": {
+        "source": "local",
+        "path": "./plugins/light-superpowers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

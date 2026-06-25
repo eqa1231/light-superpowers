@@ -1,0 +1,37 @@
+{
+  "name": "light-superpowers",
+  "version": "0.1.0",
+  "description": "A task-scaled alternative to heavy Superpowers workflows.",
+  "author": {
+    "name": "Tanikawa"
+  },
+  "homepage": "https://github.com/eqa1231/light-superpowers",
+  "repository": "https://github.com/eqa1231/light-superpowers.git",
+  "license": "MIT",
+  "skills": "./skills/",
+  "keywords": [
+    "workflow",
+    "superpowers",
+    "lightweight",
+    "verification",
+    "coding"
+  ],
+  "interface": {
+    "displayName": "Light Superpowers",
+    "shortDescription": "Task-sized workflow without heavy ceremony.",
+    "longDescription": "Light Superpowers keeps Codex work disciplined without forcing full brainstorming, planning, TDD, subagents, or branch-completion flows for small tasks.",
+    "developerName": "Tanikawa",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $light-superpowers and keep this task lightweight.",
+      "Use $light-superpowers: make the smallest safe change and verify it.",
+      "Use $light-superpowers instead of the full Superpowers workflow."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
